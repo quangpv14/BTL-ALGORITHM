@@ -1,0 +1,32 @@
+{
+  "simple": {
+    "runs": 1,
+    "solutions": 1,
+    "valid_solutions": 1,
+    "wall_time_s": 1.4379706759999635,
+    "energy_mean_mj": 1.6254721253687776,
+    "energy_min_mj": 1.6254721253687776,
+    "energy_max_mj": 1.6254721253687776,
+    "energy_stdev_mj": null
+  },
+  "A": {
+    "runs": 20,
+    "solutions": 0,
+    "valid_solutions": 0,
+    "wall_time_s": 44.30533213500007,
+    "energy_mean_mj": null,
+    "energy_min_mj": null,
+    "energy_max_mj": null,
+    "energy_stdev_mj": null
+  },
+  "B": {
+    "runs": 20,
+    "solutions": 20,
+    "valid_solutions": 20,
+    "wall_time_s": 369.47831516200006,
+    "energy_mean_mj": 14.259132496513896,
+    "energy_min_mj": 13.093872624292533,
+    "energy_max_mj": 15.274228810721818,
+    "energy_stdev_mj": 0.6955507320510375
+  }
+}

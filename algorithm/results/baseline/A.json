@@ -1,0 +1,23 @@
+{
+  "scenario": "A",
+  "script": "complexScenarioA.py",
+  "seed": 42,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "config": {
+    "NP": 30,
+    "PC": 0.3,
+    "PM": 0.3,
+    "MAX_ITER": 15,
+    "ALPHA": 0,
+    "BETA": 1,
+    "MANDATORY_DELIVERY_WINDOW": true,
+    "RC_ONLY_END": false
+  },
+  "runs": [],
+  "status": "runtime_error",
+  "exception": "Traceback (most recent call last):\n  File \"/app/run_scenarios.py\", line 153, in main\n    runpy.run_path(filename, run_name=\"__main__\")\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"complexScenarioA.py\", line 6, in <module>\n    import constant\nModuleNotFoundError: No module named 'constant'\n",
+  "wall_time_s": 0.02707061500001373
+}

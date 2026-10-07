@@ -1,0 +1,127 @@
+{
+  "simple": {
+    "uavs": 2,
+    "tasks": 5,
+    "charging_points": 2,
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 1318.0,
+    "deadline_max_s": 14562.0,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "A": {
+    "uavs": 4,
+    "tasks": 40,
+    "charging_points": 4,
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 593.0,
+    "deadline_max_s": 17914.0,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "B": {
+    "uavs": 4,
+    "tasks": 40,
+    "charging_points": 4,
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 18000,
+    "deadline_max_s": 18000,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "mat_files": {
+    "Drone_Marco_1_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_2_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_3_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_4_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "locations.mat": [
+      [
+        "points",
+        [
+          3,
+          40
+        ],
+        "double"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "scenario": "simple",
+  "script": "simpleScenario.py",
+  "seed": 42,
+  "source_sha256": {
+    "UavDeployed.py": "d73654d2852e43340038294c23e14828295fa1ff3d7751b58217e6a4ab78e204",
+    "run_scenarios.py": "22fdb5c0b8c33a60a2b64f18e3a6daa0a3196f2203169e0bc5939ab13b0e2d2a",
+    "Positions.py": "bf0d03f150ab31b10a2e9d6e140ae661d19efb637d59633e0d3e5e63137e2c36",
+    "Individual.py": "4ea0b013ebffe502000ee5983cd100b03b3b36131691c5e63f3344e1e2fb2a18",
+    "ChargingPoint.py": "9be57913d424b19bb0c87414ab74910b08c8fa7789983691b3455412171d8c02",
+    "Environement.py": "46537f4211c5eaed3cbf27471b100a1f3e46fbfd07de3f83d0bc83fd7e46cfd3",
+    "complexScenarioB.py": "66c4cf577a8ed6feb7c40649edd93d4c83f8353f7d94a1aa7b1e87389da91401",
+    "simpleScenario.py": "a9cfedbcf0c3889d0b7bf39e5144f731d34578037355de37fa415d5f010563c8",
+    "Task.py": "3cfe89c961881a1382cb17bc093433dd9899fc2e9c21c72a5ecb5e658c16c97f",
+    "Uav.py": "bb773cb1385ff17376bbf381c680160fd3d1aa16aa9f2e58051d30e05afec91d",
+    "inspect_scenarios.py": "8b5819d252b013367d70da9c74470ebee4ac5f27a1c6cf6417d1fa089c42f2c0",
+    "complexScenarioA.py": "8d9ad0e9753042dc67e392a0e20c797361ad728de6eb8afce3c62c7c7a945b3d",
+    "monteCarloRunScenario.py": "718ff877646353386f5f48828b984a4935d2b56a02cb62ed2e8324b75e7621c6",
+    "Chromosome.py": "354ab73f9a5d0c01bbeb5400de6ecd0f93b5e746102d2bfc1457e019eeaaef91",
+    "AlgoConstants.py": "fc3b1df6be57ee68d076f30a46ff9ab916dea5469982b44433b4e487763c08d3",
+    "utility.py": "8db311bdf6cc6f42ffeef951deafc38dabc1ac0d4767cf1fd713beb88e09e50c",
+    "Traject.py": "820eecdfcd84bf3624e66ed324d262dc34bf060a0c90a7f8ff77b09e881cc211",
+    "Population.py": "37a44b2d27e65ec7ae0884d2d30bc4308e53c3e0cb0ed432cf45dbb4b5aff1b3",
+    "GeneticAlgo.py": "2ad3727fd43e39451fa82dc2685973ec2078c3a44c32d9caa9282d3506e1b700",
+    "Position.py": "79be747bd65eda7c922c2e5f5ccf87958896657b52532c2817454c25ee196e93"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "config": {
+    "NP": 30,
+    "PC": 0.3,
+    "PM": 0.3,
+    "MAX_ITER": 15,
+    "ALPHA": 0,
+    "BETA": 1,
+    "MANDATORY_DELIVERY_WINDOW": true,
+    "RC_ONLY_END": false
+  },
+  "runs": [
+    {
+      "run": 1,
+      "solution_found": true,
+      "wall_time_s": 1.424305610000033,
+      "iterations": 7,
+      "uavs": 2,
+      "tasks": 5,
+      "charging_points": 2,
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "energy_j": 1625472.1253687777,
+        "score": 1625472.125368778,
+        "recomputed_score": 1625472.1253687777,
+        "on_time_fraction": 1.0,
+        "charging_visits": 1,
+        "steps": [
+          {
+            "uav": 0,
+            "task": 1,
+            "charging": false,
+            "duration_s": 483.9499739594917,
+            "completion_s": 483.9499739594917,
+            "velocity_m_s": 6.449168800871622,
+            "energy_j": 125738.24062441815,
+            "battery_before_swap_j": 774261.7593755819,
+            "deadline_s": 1318.0
+          },
+          {
+            "uav": 0,
+            "task": 3,
+            "charging": false,
+            "duration_s": 547.4027856073502,
+            "completion_s": 1031.352759566842,
+            "velocity_m_s": 7.209187770929839,
+            "energy_j": 198665.46370038576,
+            "battery_before_swap_j": 575596.2956751961,
+            "deadline_s": 7783.0
+          },
+          {
+            "uav": 0,
+            "task": 5,
+            "charging": true,
+            "duration_s": 53.04249974300987,
+            "completion_s": 1084.3952593098518,
+            "velocity_m_s": 19.0,
+            "energy_j": 125182.1449363525,
+            "battery_before_swap_j": 450414.1507388436,
+            "deadline_s": null
+          },
+          {
+            "uav": 0,
+            "task": 0,
+            "charging": false,
+            "duration_s": 1104.3796548984437,
+            "completion_s": 2188.7749142082957,
+            "velocity_m_s": 7.157429730193198,
+            "energy_j": 392234.8836947071,
+            "battery_before_swap_j": 507765.1163052929,
+            "deadline_s": 6417.000000000001
+          },
+          {
+            "uav": 0,
+            "task": 4,
+            "charging": false,
+            "duration_s": 631.7592486901904,
+            "completion_s": 2820.534162898486,
+            "velocity_m_s": 6.755643475628791,
+            "energy_j": 188672.01419512916,
+            "battery_before_swap_j": 319093.1021101637,
+            "deadline_s": 5564.0
+          },
+          {
+            "uav": 1,
+            "task": 2,
+            "charging": false,
+            "duration_s": 649.0584391775917,
+            "completion_s": 649.0584391775917,
+            "velocity_m_s": 7.615349913898626,
+            "energy_j": 594979.378217785,
+            "battery_before_swap_j": 835020.621782215,
+            "deadline_s": 14562.0
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed",
+  "wall_time_s": 1.4379706759999635
+}

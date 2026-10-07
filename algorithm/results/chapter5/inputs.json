@@ -1,0 +1,253 @@
+{
+  "simple": {
+    "uavs": 2,
+    "tasks": 5,
+    "charging_points": 2,
+    "fleet": [
+      {
+        "mass_kg": 2,
+        "max_payload_kg": 2,
+        "Ar_m2": 0.28,
+        "Ad_m2": 0.6,
+        "max_velocity_m_s": 19,
+        "battery_mj": 0.9,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 4,
+        "max_payload_kg": 4,
+        "Ar_m2": 0.44,
+        "Ad_m2": 1,
+        "max_velocity_m_s": 22,
+        "battery_mj": 1.43,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      }
+    ],
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 1318.0,
+    "deadline_max_s": 14562.0,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "A": {
+    "uavs": 4,
+    "tasks": 40,
+    "charging_points": 4,
+    "fleet": [
+      {
+        "mass_kg": 1,
+        "max_payload_kg": 1,
+        "Ar_m2": 0.2,
+        "Ad_m2": 0.4,
+        "max_velocity_m_s": 16,
+        "battery_mj": 0.68,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 2,
+        "max_payload_kg": 2,
+        "Ar_m2": 0.28,
+        "Ad_m2": 0.6,
+        "max_velocity_m_s": 19,
+        "battery_mj": 0.9,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 3,
+        "max_payload_kg": 3,
+        "Ar_m2": 0.36,
+        "Ad_m2": 0.8,
+        "max_velocity_m_s": 20,
+        "battery_mj": 1.17,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 4,
+        "max_payload_kg": 4,
+        "Ar_m2": 0.44,
+        "Ad_m2": 1,
+        "max_velocity_m_s": 22,
+        "battery_mj": 1.43,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      }
+    ],
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 593.0,
+    "deadline_max_s": 17914.0,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "B": {
+    "uavs": 4,
+    "tasks": 40,
+    "charging_points": 4,
+    "fleet": [
+      {
+        "mass_kg": 1,
+        "max_payload_kg": 1,
+        "Ar_m2": 0.2,
+        "Ad_m2": 0.4,
+        "max_velocity_m_s": 16,
+        "battery_mj": 0.68,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 2,
+        "max_payload_kg": 2,
+        "Ar_m2": 0.28,
+        "Ad_m2": 0.6,
+        "max_velocity_m_s": 19,
+        "battery_mj": 0.9,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 3,
+        "max_payload_kg": 3,
+        "Ar_m2": 0.36,
+        "Ad_m2": 0.8,
+        "max_velocity_m_s": 20,
+        "battery_mj": 1.17,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      },
+      {
+        "mass_kg": 4,
+        "max_payload_kg": 4,
+        "Ar_m2": 0.44,
+        "Ad_m2": 1,
+        "max_velocity_m_s": 22,
+        "battery_mj": 1.43,
+        "cd": 0.3,
+        "Fm": 0.9,
+        "eta": 0.8,
+        "rho": 1.23
+      }
+    ],
+    "matrix_shapes": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ],
+    "deadline_min_s": 18000,
+    "deadline_max_s": 18000,
+    "direct_first_task_deadline_violations": [],
+    "note": "These direct-path bounds assume metric path distances; they are not a general infeasibility proof."
+  },
+  "mat_files": {
+    "Drone_Marco_1_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_2_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_3_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "Drone_Marco_4_dist_cost.mat": [
+      [
+        "Res",
+        [
+          40,
+          40
+        ],
+        "double"
+      ]
+    ],
+    "locations.mat": [
+      [
+        "points",
+        [
+          3,
+          40
+        ],
+        "double"
+      ]
+    ]
+  }
+}

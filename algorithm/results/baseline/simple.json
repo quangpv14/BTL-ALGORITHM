@@ -1,0 +1,23 @@
+{
+  "scenario": "simple",
+  "script": "simpleScenario.py",
+  "seed": 42,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "config": {
+    "NP": 30,
+    "PC": 0.3,
+    "PM": 0.3,
+    "MAX_ITER": 15,
+    "ALPHA": 0,
+    "BETA": 1,
+    "MANDATORY_DELIVERY_WINDOW": true,
+    "RC_ONLY_END": false
+  },
+  "runs": [],
+  "status": "runtime_error",
+  "exception": "Traceback (most recent call last):\n  File \"/app/run_scenarios.py\", line 153, in main\n    runpy.run_path(filename, run_name=\"__main__\")\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"simpleScenario.py\", line 84, in <module>\n    gaSimple.run()\n  File \"/app/run_scenarios.py\", line 130, in recorded_run\n    original_run(ga)\n  File \"/app/GeneticAlgo.py\", line 742, in run\n    self.addChargingTasksAndEvaluationPopulations()\n  File \"/app/GeneticAlgo.py\", line 115, in addChargingTasksAndEvaluationPopulations\n    newChromosome = self.addChargingTasks(self.population[i].getChromosome())\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/GeneticAlgo.py\", line 219, in addChargingTasks\n    droneTasksWithCP = self.addChargingTasksPerDrone(droneTask, u)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/GeneticAlgo.py\", line 185, in addChargingTasksPerDrone\n    if not uav.canTakeTasks(self.taskAndRechargeTask(uav, taskOrder[taskIndex])):\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/Uav.py\", line 227, in canTakeTasks\n    currentTaskEnergy = tempUav.taskEnergy(t)\n                        ^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/Uav.py\", line 145, in taskEnergy\n    currentTrajectEnergy = self.taskEnergyOptimizer(task)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/Uav.py\", line 163, in taskEnergyOptimizer\n    energy = sol.fun[0]\n             ~~~~~~~^^^\nTypeError: 'float' object is not subscriptable\n",
+  "wall_time_s": 0.06657030899998517
+}

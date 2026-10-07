@@ -1,0 +1,129 @@
+{
+  "scenario": "A",
+  "script": "complexScenarioA.py",
+  "seed": 42,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "config": {
+    "NP": 30,
+    "PC": 0.3,
+    "PM": 0.3,
+    "MAX_ITER": 15,
+    "ALPHA": 0,
+    "BETA": 1,
+    "MANDATORY_DELIVERY_WINDOW": true,
+    "RC_ONLY_END": false
+  },
+  "runs": [
+    {
+      "run": 1,
+      "solution_found": false,
+      "wall_time_s": 4.456770628999948,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 2,
+      "solution_found": false,
+      "wall_time_s": 4.544662617999961,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 3,
+      "solution_found": false,
+      "wall_time_s": 6.306425663000027,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 4,
+      "solution_found": false,
+      "wall_time_s": 8.494543281000006,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 5,
+      "solution_found": false,
+      "wall_time_s": 10.270481227999994,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 6,
+      "solution_found": false,
+      "wall_time_s": 10.327084836999916,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 7,
+      "solution_found": false,
+      "wall_time_s": 12.760311573000081,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 8,
+      "solution_found": false,
+      "wall_time_s": 13.490660739999953,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 9,
+      "solution_found": false,
+      "wall_time_s": 15.621426007999958,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 10,
+      "solution_found": false,
+      "wall_time_s": 19.71170595199999,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 11,
+      "solution_found": false,
+      "wall_time_s": 17.540735894000022,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 12,
+      "solution_found": false,
+      "wall_time_s": 19.378018996000037,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "scenario": "A",
+  "script": "complexScenarioA.py",
+  "seed": 42,
+  "source_sha256": {
+    "AlgoConstants.py": "fc3b1df6be57ee68d076f30a46ff9ab916dea5469982b44433b4e487763c08d3",
+    "ChargingPoint.py": "9be57913d424b19bb0c87414ab74910b08c8fa7789983691b3455412171d8c02",
+    "Chromosome.py": "354ab73f9a5d0c01bbeb5400de6ecd0f93b5e746102d2bfc1457e019eeaaef91",
+    "complexScenarioA.py": "8d9ad0e9753042dc67e392a0e20c797361ad728de6eb8afce3c62c7c7a945b3d",
+    "complexScenarioB.py": "66c4cf577a8ed6feb7c40649edd93d4c83f8353f7d94a1aa7b1e87389da91401",
+    "Environement.py": "46537f4211c5eaed3cbf27471b100a1f3e46fbfd07de3f83d0bc83fd7e46cfd3",
+    "GeneticAlgo.py": "2ad3727fd43e39451fa82dc2685973ec2078c3a44c32d9caa9282d3506e1b700",
+    "Individual.py": "4ea0b013ebffe502000ee5983cd100b03b3b36131691c5e63f3344e1e2fb2a18",
+    "monteCarloRunScenario.py": "718ff877646353386f5f48828b984a4935d2b56a02cb62ed2e8324b75e7621c6",
+    "Population.py": "37a44b2d27e65ec7ae0884d2d30bc4308e53c3e0cb0ed432cf45dbb4b5aff1b3",
+    "Position.py": "79be747bd65eda7c922c2e5f5ccf87958896657b52532c2817454c25ee196e93",
+    "Positions.py": "bf0d03f150ab31b10a2e9d6e140ae661d19efb637d59633e0d3e5e63137e2c36",
+    "run_scenarios.py": "22fdb5c0b8c33a60a2b64f18e3a6daa0a3196f2203169e0bc5939ab13b0e2d2a",
+    "simpleScenario.py": "a9cfedbcf0c3889d0b7bf39e5144f731d34578037355de37fa415d5f010563c8",
+    "Task.py": "3cfe89c961881a1382cb17bc093433dd9899fc2e9c21c72a5ecb5e658c16c97f",
+    "Traject.py": "820eecdfcd84bf3624e66ed324d262dc34bf060a0c90a7f8ff77b09e881cc211",
+    "Uav.py": "bb773cb1385ff17376bbf381c680160fd3d1aa16aa9f2e58051d30e05afec91d",
+    "UavDeployed.py": "d73654d2852e43340038294c23e14828295fa1ff3d7751b58217e6a4ab78e204",
+    "utility.py": "8db311bdf6cc6f42ffeef951deafc38dabc1ac0d4767cf1fd713beb88e09e50c"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "config": {
+    "NP": 30,
+    "PC": 0.3,
+    "PM": 0.3,
+    "MAX_ITER": 15,
+    "ALPHA": 0,
+    "BETA": 1,
+    "MANDATORY_DELIVERY_WINDOW": true,
+    "RC_ONLY_END": false
+  },
+  "runs": [
+    {
+      "run": 1,
+      "solution_found": false,
+      "wall_time_s": 3.5768699829999377,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 2,
+      "solution_found": false,
+      "wall_time_s": 1.741458808999937,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 3,
+      "solution_found": false,
+      "wall_time_s": 2.519142378999959,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 4,
+      "solution_found": false,
+      "wall_time_s": 2.642351958000063,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 5,
+      "solution_found": false,
+      "wall_time_s": 2.48700619300007,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 6,
+      "solution_found": false,
+      "wall_time_s": 2.02560099599998,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 7,
+      "solution_found": false,
+      "wall_time_s": 2.221285114000011,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 8,
+      "solution_found": false,
+      "wall_time_s": 1.9128079500000013,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 9,
+      "solution_found": false,
+      "wall_time_s": 2.071672250000006,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 10,
+      "solution_found": false,
+      "wall_time_s": 2.527424740000015,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 11,
+      "solution_found": false,
+      "wall_time_s": 1.5356493849999424,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 12,
+      "solution_found": false,
+      "wall_time_s": 2.1451835029999984,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 13,
+      "solution_found": false,
+      "wall_time_s": 2.0839129299999968,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 14,
+      "solution_found": false,
+      "wall_time_s": 1.9953122900000153,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 15,
+      "solution_found": false,
+      "wall_time_s": 2.193852783000011,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 16,
+      "solution_found": false,
+      "wall_time_s": 1.8443015619999414,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 17,
+      "solution_found": false,
+      "wall_time_s": 2.070411335000017,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 18,
+      "solution_found": false,
+      "wall_time_s": 2.1197897170000033,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 19,
+      "solution_found": false,
+      "wall_time_s": 2.241583096999989,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    },
+    {
+      "run": 20,
+      "solution_found": false,
+      "wall_time_s": 2.141909487000021,
+      "iterations": 6,
+      "uavs": 4,
+      "tasks": 40,
+      "charging_points": 4
+    }
+  ],
+  "status": "completed",
+  "wall_time_s": 44.30533213500007
+}
